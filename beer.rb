@@ -13,3 +13,5 @@ puts "Hi there! How old are you?"
 user_age = gets
 
 drinking_age(user_age)
+
+# testing password in terminal
