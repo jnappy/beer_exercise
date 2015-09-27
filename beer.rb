@@ -9,3 +9,16 @@ require 'pry'
 #store the user input in a variable: user_age
  
 #run the function
+
+
+def drinking(age)
+	if age > 21
+		puts "yay, get wasted."
+		if age < 21
+			puts "sucks for you."
+		end
+	end
+
+puts "What is your age?"
+user_age = gets.strip
+drinking(user_age)
