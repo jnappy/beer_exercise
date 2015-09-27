@@ -9,3 +9,16 @@ require 'pry'
 #store the user input in a variable: user_age
  
 #run the function
+
+def can_you_have_a_beer (age)
+	if age >= "21"
+		puts ("Yay, have a beer!")
+	else age < "21"
+		puts ("Nay, don't have a beer!")
+	end
+end
+
+puts "How old are you?"
+
+user_age= gets.strip
+can_you_have_a_beer(user_age)
