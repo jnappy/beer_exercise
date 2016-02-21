@@ -3,10 +3,10 @@ require 'pry'
 #write a function that accepts a variable: age
 def find_your_age
 	puts("How old are you?")
-	user_age = gets.strip
-	if user_age > "21"
+	user_age = gets.strip.to_i
+	if user_age >= 21
 		puts("Yay, have a beer!")
-	else user_age < "21"
+	else
 		puts("Nay, don't have a beer!")
 	end
 	puts("And that's all folks!")
