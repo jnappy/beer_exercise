@@ -6,10 +6,15 @@ require 'pry'
 def are_you_21()
   puts 'How old are you?'
   age = gets.to_i
-  if age > 21
-    puts 'Yay! Have a beer!'
-  elsif age == 21
-    puts 'Happy recent birthday!'
+  if age >= 21
+    if age >= 60
+      puts 'Maybe you would like some Whiskey instead'
+    elsif age == 21
+      puts 'Happy recent birthday!'
+      puts 'Have a beer!'
+    else
+      puts 'Have a beer!'
+    end
   else
     puts 'Grow up bro'
   end
