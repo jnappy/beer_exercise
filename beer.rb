@@ -2,8 +2,10 @@
 
 def beer(user_age)
 	
-	if user_age >= 21
+	if user_age > 21
 		puts "Yay, have a beer!"
+	elsif user_age == 21
+		puts "Happy Birthday!"
 	else
 		puts "Nay, don't have a beer!"
 	end
