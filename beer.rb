@@ -10,3 +10,18 @@ require 'pry'
 #store the user input in a variable: user_age
 
 #run the function
+
+def legal?(age)
+	if age > 21
+		puts("Yay have a beer!")
+	elsif age == 21
+		puts("Yay. have a beer, newbie!")
+	else 
+		puts("Nay, don't have a beer")
+	end
+end
+
+puts("How old are you?")
+user_age = gets.strip.to_i
+
+legal?(user_age)
