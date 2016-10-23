@@ -1,4 +1,4 @@
-require 'pry'
+
 
 #write a function that accepts a variable: age
 #if age is greater than 21, display "Yay, have a beer!"
@@ -8,4 +8,4 @@ require 'pry'
 
 #store the user input in a variable: user_age
 
-#run the function
+#run the function with the user_age variable
